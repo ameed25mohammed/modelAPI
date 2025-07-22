@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 # تحميل النموذج
-model = load_model('falin_ann_model.h5')
+model = load_model('drug_addiction_model.h5')
 
 # إعداد تطبيق Flask
 app = Flask(__name__)
