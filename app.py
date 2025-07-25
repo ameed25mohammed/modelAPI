@@ -40,8 +40,7 @@ feature_names = [
     'Withdrawal symptoms',
     'Conflict with law',
     'Failure in life',
-    'Suicidal thoughts',
-    'Frequency of drug usage'
+    'Suicidal thoughts'
 ]
 
 app = Flask(__name__)
