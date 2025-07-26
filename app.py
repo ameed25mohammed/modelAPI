@@ -15,7 +15,7 @@ except Exception as e:
 
 try:
     # النموذج الثاني - تحديد شدة الإدمان
-    severity_model = joblib.load('random_forest_drug_usage_model_metadata.pkl')
+    severity_model = joblib.load('random_forest_drug_usage_model_prediction.pkl')
     print("✅ Severity Model loaded successfully")
 except Exception as e:
     print(f"❌ Severity Model loading failed: {e}")
